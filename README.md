@@ -1,4 +1,4 @@
-# Customised Cookiecutter Template
+## Customised Cookiecutter Template
 
 This repository builds a customised Machine Learning Engineering repository
 template to include the following features:
@@ -11,17 +11,20 @@ template to include the following features:
 * AWS setup (optional)
 
 
-### To start a new project, run:
+### Setup
 ------------
 
-    Install the latest Cookiecutter if you haven't installed it yet:
+ Install the latest Cookiecutter if you haven't installed it yet:
 
-    ``` bash
+    ```bash
     $ pip install cookiecutter
     ```
 
-    cookiecutter -c  https://github.com/ryankarlos/cookiecutter-mle-template.git
-
+Then to initiate the run the following command, with the url of the repo 
+    
+    ```bash
+    $ cookiecutter -c  https://github.com/ryankarlos/cookiecutter-mle-template.git
+    ```
 
 ### The resulting directory structure
 ------------
@@ -63,3 +66,12 @@ The directory structure of your new project looks like this:
         ├── cli.py
         └── {{cookiecutter.project_slug}}.py
 ```
+
+
+### Acknowledgements
+---
+
+This template is adapted from the following cookiecutter repos:
+
+1. ![Cookiecutter PyPackage](https://github.com/audreyfeldroy/cookiecutter-pypackage)
+2. ![Cookiecutter Data Science](https://github.com/drivendata/cookiecutter-data-science.git)
