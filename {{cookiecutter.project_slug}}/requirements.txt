@@ -1,0 +1,23 @@
+
+{% if cookiecutter.use_aws == true %}
+awscli>=1.22.73
+boto3>=1.22.0
+diagrams>=0.21.1
+{% endif %}
+
+pyarrow>=8.0.0
+pandas>=1.4.0
+graphviz==*
+matplotlib>=2.0.0
+tqdm>=4.63.0
+sqlalchemy==1.4.36
+ipykernel
+jupyterlab
+notebook
+
+{% if cookiecutter.command_line_interface|lower == 'click' -%}
+Click-=8.1.3{% endif %}
+{% if cookiecutter.command_line_interface|lower == 'argparse' -%}
+Click==7.1.2{% endif %}
+
+

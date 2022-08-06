@@ -1,0 +1,26 @@
+version: "3.3"
+
+services:
+  dev:
+    build:
+      context: .
+    volumes:
+      - ./{{ cookiecutter.project_slug }}/:/usr/{{ cookiecutter.project_slug }}/
+    environment:
+      - SQLALCHEMY_DATABASE_URL=postgresql://mle:mle@db/mle_dev
+  db:
+    image: postgres:14.1
+    expose:
+      - 5432
+    ports:
+      - 5432:5432
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    restart: unless-stopped
+    environment:
+      - POSTGRES_USER=mle
+      - POSTGRES_PASSWORD=mle
+      - POSTGRES_DB=mle_dev
+      - POSTGRES_HOST_AUTH_METHOD=trust
+volumes:
+  postgres_data:
