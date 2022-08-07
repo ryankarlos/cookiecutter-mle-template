@@ -7,7 +7,7 @@ template to include the following features:
 * GitHubActions: Ready for Continuous Integration testing and other workflows
 * Tox_ testing: Setup to easily test for multiple specified python versions (e.g. 3.8, 3.9, 3.10)
 * Linting: Configured precommit hooks which can be setup locally to automatically lint codebase before pushing to repo.
-* Sphinx_ docs: Auto generate docs
+* Sphinx_ docs: Documentation which will be published to ReadTheDocs 
 * Containers for dev: Using docker-compose, start container locally with all dependencies for development.
 * Command line interface using Click or Argparse (optional)
 * AWS setup (optional)

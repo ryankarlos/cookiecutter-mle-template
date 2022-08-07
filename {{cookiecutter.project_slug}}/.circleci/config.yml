@@ -1,26 +1,19 @@
 jobs:
-  tests:
+  toxify:
     docker:
-      - image: cimg/python:3.9.8
+      - image: themattrix/tox
     steps:
-      - checkout # checkout source code
+      - checkout
       - run:
-          name: Check python version and install dependencies
-          command: |
-                python --version
-                pip install -r requirements_dev.txt
-                pip install -r aws_vpc/eb-flask/requirements.txt
-                echo $HOME
+          name: Install tox
+          command: pip install tox
       - run:
-          name: Run tests
-          command: |
-                coverage run -m pytest
-                coverage report
-                coverage html # open htmlcov/index.html in a browser
+          name: Run tests with tox
+          command: tox
       - store_artifacts:
           path: htmlcov
 workflows:
   version: 2
   test-workflow:
     jobs:
-      - tests
+      - toxify
