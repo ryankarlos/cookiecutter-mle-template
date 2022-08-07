@@ -5,11 +5,12 @@ template to include the following features:
 
 * Testing setup with ``pytest``
 * GitHubActions: Ready for Continuous Integration testing and other workflows
-* Tox_ testing: Setup to easily test for Python 3.6, 3.7, 3.8
-* Sphinx_ docs: Documentation ready for generation with, for example, `Read the Docs`_
+* Tox_ testing: Setup to easily test for multiple specified python versions (e.g. 3.8, 3.9, 3.10)
+* Linting: Configured precommit hooks which can be setup locally to automatically lint codebase before pushing to repo.
+* Sphinx_ docs: Auto generate docs
+* Containers for dev: Using docker-compose, start container locally with all dependencies for development.
 * Command line interface using Click or Argparse (optional)
 * AWS setup (optional)
-
 
 ### Setup
 ------------
@@ -71,7 +72,5 @@ The directory structure of your new project looks like this:
 ### Acknowledgements
 ---
 
-This template is adapted from the following cookiecutter repos:
-
-1. ![Cookiecutter PyPackage](https://github.com/audreyfeldroy/cookiecutter-pypackage)
-2. ![Cookiecutter Data Science](https://github.com/drivendata/cookiecutter-data-science.git)
+This template is adapted from the ![Cookiecutter PyPackage](https://github.com/audreyfeldroy/cookiecutter-pypackage)
+and  ![Cookiecutter Data Science](https://github.com/drivendata/cookiecutter-data-science.git) projects.

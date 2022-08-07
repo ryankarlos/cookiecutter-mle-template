@@ -1,0 +1,26 @@
+jobs:
+  tests:
+    docker:
+      - image: cimg/python:3.9.8
+    steps:
+      - checkout # checkout source code
+      - run:
+          name: Check python version and install dependencies
+          command: |
+                python --version
+                pip install -r requirements_dev.txt
+                pip install -r aws_vpc/eb-flask/requirements.txt
+                echo $HOME
+      - run:
+          name: Run tests
+          command: |
+                coverage run -m pytest
+                coverage report
+                coverage html # open htmlcov/index.html in a browser
+      - store_artifacts:
+          path: htmlcov
+workflows:
+  version: 2
+  test-workflow:
+    jobs:
+      - tests
