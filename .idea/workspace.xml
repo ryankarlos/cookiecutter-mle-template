@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4164fcb0-0941-40c1-86a1-2081a646d43e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_cookiecutter_template.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tox.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}/py.typed" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookiecutter.json" beforeDir="false" afterPath="$PROJECT_DIR$/cookiecutter.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/.github/workflows/tests.yml" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/.github/workflows/tests.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/MANIFEST.in" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/MANIFEST.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/docs/source/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/docs/source/conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/setup.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/setup.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/tests/test_{{cookiecutter.project_slug}}.py" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/tests/test_{{cookiecutter.project_slug}}.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/tox.ini" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/tox.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}/cli.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}/utils/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}/utils/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

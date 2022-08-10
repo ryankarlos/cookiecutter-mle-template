@@ -1,3 +1,10 @@
+
+{{% if cookiecutter.project_short_description %}}
+![python-version](https://img.shields.io/badge/Python-{{cookiecutter.python_version}}-green) 
+[![tests](https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/actions)
+{{% endif %}}
+
+
 ## Customised Cookiecutter Template
 
 This repository builds a customised Machine Learning Engineering repository
