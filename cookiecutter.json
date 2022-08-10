@@ -10,5 +10,5 @@
   "python_version": ["3.8", "3.9", "3.10"],
   "add_badges": "y",
   "open_source_license": "MIT license",
-  "ghpages-theme": "jekyll-theme-cayman"
+  "ghpages_theme": "jekyll-theme-cayman"
 }

@@ -1,3 +1,4 @@
 
-include LICENSE
-include README.rst
+include LICENSE README.md
+include {{ cookiecutter.project_slug }}/py.typed
+include logging.conf
