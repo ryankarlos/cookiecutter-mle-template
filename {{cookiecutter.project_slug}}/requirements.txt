@@ -13,5 +13,3 @@ jupyterlab
 notebook
 scikit-learn
 Click==8.1.3
-
-

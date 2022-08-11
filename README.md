@@ -1,8 +1,6 @@
 
-{{% if cookiecutter.project_short_description %}}
-![python-version](https://img.shields.io/badge/Python-{{cookiecutter.python_version}}-green) 
-[![tests](https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/actions)
-{{% endif %}}
+![python-version](https://img.shields.io/badge/Python-3.10-green)
+[![tests](https://github.com/ryankarlos/cookiecutter-mle-template/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/ryankarlos/cookiecutter-mle-template/actions)
 
 
 ## Customised Cookiecutter Template
@@ -14,7 +12,7 @@ template to include the following features:
 * GitHubActions: Ready for Continuous Integration testing and other workflows
 * Tox_ testing: Setup to easily test for multiple specified python versions (e.g. 3.8, 3.9, 3.10)
 * Linting: Configured precommit hooks which can be setup locally to automatically lint codebase before pushing to repo.
-* Sphinx_ docs: Documentation which will be published to ReadTheDocs 
+* Sphinx_ docs: Documentation which will be published to ReadTheDocs
 * Containers for dev: Using docker-compose, start container locally with all dependencies for development.
 * Command line interface using Click or Argparse (optional)
 * AWS setup (optional)
@@ -28,21 +26,19 @@ template to include the following features:
     $ pip install cookiecutter
     ```
 
-Then to initiate the run the following command, with the url of the repo 
-    
+Then to initiate the run the following command, with the url of the repo
+
     ```bash
     $ cookiecutter -c  https://github.com/ryankarlos/cookiecutter-mle-template.git
     ```
 
 ### The resulting directory structure
 ------------
-
-The directory structure of your new project looks like this: 
+Lets assume you set the `project_name` as  `Data Science`, then the
+directory structure of your new project looks like this:
 
 ```
-├── README.md
-├── cookiecutter.json
-└── {{cookiecutter.project_slug}}
+data_science
     ├── Dockerfile
     ├── LICENSE
     ├── MANIFEST.in
@@ -67,12 +63,12 @@ The directory structure of your new project looks like this:
     ├── tests
     │   ├── __init__.py
     │   ├── conftest.py
-    │   └── test_{{cookiecutter.project_slug}}.py
+    │   └── test_data_science.py
     ├── tox.ini
-    └── {{cookiecutter.project_slug}}
+    └── data_science
         ├── __init__.py
         ├── cli.py
-        └── {{cookiecutter.project_slug}}.py
+        └── data_science.py
 ```
 
 
