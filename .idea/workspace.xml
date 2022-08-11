@@ -5,28 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4164fcb0-0941-40c1-86a1-2081a646d43e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/tests.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pre-commit-config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cookiecutter-mle-template.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookiecutter.json" beforeDir="false" afterPath="$PROJECT_DIR$/cookiecutter.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_cookiecutter_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_cookiecutter_template.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tox.ini" beforeDir="false" afterPath="$PROJECT_DIR$/tox.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/tests/test_{{cookiecutter.project_slug}}.py" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/tests/test_{{cookiecutter.project_slug}}.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/tox.ini" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/tox.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}/db/update_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}/db/update_db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}/modelling/features.py" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}/modelling/features.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}/modelling/load_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}/modelling/load_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}/modelling/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}/modelling/predict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}/modelling/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}/modelling/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}/modelling/visualize.py" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}/modelling/visualize.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

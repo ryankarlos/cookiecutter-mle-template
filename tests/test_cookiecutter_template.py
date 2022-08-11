@@ -77,7 +77,7 @@ def test_custom_project_tree(default_cookie_project):
 
 def test_generated_readme(default_cookie_project):
 
-    with open(  # noqa: W605
+    with open(
         f"{default_cookie_project.resolve()}\\making_cookies\\README.md", "r"
     ) as fs:
         readme_txt = [x.strip("\n") for x in fs.readlines()]
